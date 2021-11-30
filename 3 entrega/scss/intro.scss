@@ -1,0 +1,23 @@
+@import "generales";
+
+@import "header";
+
+@import "footer";
+
+$main: 400px;
+$footer: 20px;
+
+.operadores {
+    padding: $main - 100;
+
+    .titulo {
+        padding: $footer + 10;
+        text-align: center;
+
+        p {
+            padding: $footer + 5;
+
+        }
+
+    }
+}
